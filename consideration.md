@@ -2,7 +2,6 @@
 
 A new Flutter project.
 
-## Step 1
 - Story Boarding of the Project 
     a) There are users as follows :- i) buyer ii) seller
     b) Story of seller
@@ -30,23 +29,30 @@ A new Flutter project.
     a) Firebase
     b) FireStore Database
     c) Firebase Storage
-    d) Flutter of App Development
+    d) Flutter for App Development
     e) Architecture - MVVM
     d) state management tool - Provider
     e) Git for version control
     
 -   Database Insights :-
-    a) Collection(Users) => document(id) => fields(email,id,mobile,name,password,type)
-    b) Collection(Produts) => document(product_id)=> fields(product_discount,product_id,product_mrp,product_name,product_price)
+    a) Collection(users) => document(id) => fields(email,id,mobile,name,password,type)
+    b) Collection(products) => document(product_id)=> fields(product_discount,product_id,product_mrp,product_name,product_price)
     c) Collection(desc) => document(user_id)=> fields(user_id,desc)
     d) Collection(images) => document(user_id)=> fields(user_id,image_url)
 
+-   Data Flow :-
 
-A few resources to get you started if this is your first Flutter project:
+    1) The Request is generated from View.
+    2) The request now through ViewModel Class hits the Repository.
+    3) The repository routes the request to networkApiService Class.
+    4) The networkApiService is responsible to send the data to the server and to receive the response from it.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-   Test Case :-
+    1) Login Screen Integration Testing added.
+    
+-   Future Development :-
+    1) More optimization of Code
+    2) providing new functionality like Cart and Checkout System
+    3) Enhancing the Look and feel of the App
+    4) More Test Cases to add
+    
