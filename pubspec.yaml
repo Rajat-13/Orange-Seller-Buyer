@@ -1,0 +1,57 @@
+---
+name: orange
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore:
+  firebase_auth:
+  firebase_core:
+  money_formatter:
+  flutter_launcher_icons:
+  hive:
+  provider:
+  another_flushbar:
+  path_provider:
+  image_picker:
+  firebase_storage:
+  permission_handler:
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/ic_launcher.png"
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/fonts/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Light.woff
+          weight: 200
+        - asset: assets/fonts/Gilroy-Medium.woff
+          weight: 400
+        - asset: assets/fonts/Gilroy-Regular.woff
+          weight: 500
+        - asset: assets/fonts/Gilroy-Bold.woff
+          weight: 700
+        - asset: assets/fonts/Gilroy-Heavy.woff
+          weight: 900

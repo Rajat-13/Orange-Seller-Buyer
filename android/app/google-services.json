@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "40333290721",
+    "project_id": "orange-c52a0",
+    "storage_bucket": "orange-c52a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40333290721:android:4ab56a01cf9867ba29dba0",
+        "android_client_info": {
+          "package_name": "com.orange.orange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40333290721-mjs6lnu3p77aftcnju7tutjasjklnjps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orange.orange",
+            "certificate_hash": "da1d3882bc0b23aeef18a2233c25799e07f86a17"
+          }
+        },
+        {
+          "client_id": "40333290721-qp3rmb59rgbhgjj28qgnja4l6s58bqcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfnfX6cGboTk2wYawE6NBgnxJR1OLElqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40333290721-qp3rmb59rgbhgjj28qgnja4l6s58bqcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
